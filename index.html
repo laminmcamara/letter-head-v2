@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Latomz Natural Food Processing & Academy">
+    <meta name="description" content="Latomz Natural Food Processing & Academy Online Application Form for Apprenticeship.">
+    <title>Latomz Natural Food Processing & Academy | Official Letterhead</title>
+    <style>
+        :root {
+            --primary-color: #027a2f;
+            --secondary-color: #333333;
+            --light-text-color: #666666;
+            --border-color: #cccccc;
+            --header-border-color: #000000;
+            --font-main: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            --font-body: 'Georgia', serif;
+          }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            font-size: 1rem;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #252525;
+            border-radius: 8px;
+            -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+        }
+
+        
+        *,
+        *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+
+        
+
+         /* --- Page Layout for A4 Printing --- */
+    @page {
+        size: A4;
+        margin: 2cm;
+      }
+
+        /* --- Header Section --- */
+.letterhead-header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center align items */
+    padding: 20px;
+    border-bottom: 4px solid var(--header-border-color);
+}
+
+.logo-container {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width for better alignment */
+    max-width: 120px; /* Maximum width for the logo's container */
+    height: auto; /* Adjust height automatically */
+}
+
+.logo, .logo1 {
+    max-width: 100%; /* Responsive logos */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+.logo {border-radius: 50%;}
+
+.company-details {
+    text-align: center; /* Center text on mobile */
+    margin-top: 5px; /* Space between logo and details */
+}
+
+.company-name {
+    font-size: 1.8rem; /* Adjusted for mobile */
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0 0 4px;
+}
+
+.company-tagline {
+    font-size: 1rem; /* Adjusted for mobile */
+    font-style: italic;
+    color: var(--light-text-color);
+    margin: 0 0 15px;
+}
+
+/* --- Enhanced Contact Details with Icons --- */
+.contact-details {
+    font-size: 0.85rem; /* Adjusted for mobile */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Reduced gap for better compactness */
+    margin-bottom: 5px; /* Space between contact items */
+}
+
+.contact-item svg {
+    width: 16px; /* Slightly larger for clarity */
+    height: 16px;
+    fill: var(--primary-color);
+    flex-shrink: 0;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .letterhead-header {
+        padding: 15px; /* Adjust padding for mobile */
+    }
+
+    .company-name {
+        font-size: 1.3rem; /* Smaller font size for mobile */
+    }
+
+    .company-tagline {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+
+    .contact-details {
+        font-size: 0.75rem; /* Smaller font for mobile */
+    }
+}
+      header {background-color: rgba(255, 255, 247);}
+
+  
+        select.form-control {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: white url('data:image/svg+xml;utf8,<svg fill="gray" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+            background-size: 1em;
+            cursor: pointer;
+        }
+        
+    
+         
+
+        /* --- Print-Specific Styles for Perfect PDF Output --- */
+    @media print {
+        body {
+          background-color: #fafafa;
+        }
+        .letter-wrapper {
+          box-shadow: none; /* Remove shadow for printing */
+          min-height: auto;
+        }
+        
+      }
+    </style>
+</head>
+<body>
+<div class="main-border-container">
+    <header class="letterhead-header">
+        <div class="logo-container">
+          <!-- HTML attributes for width/height have been removed. CSS handles everything. -->
+          <img src="image1.png" alt="Latomz Natural Food Processing & Academy Logo" class="logo1">
+          <img src="image2.png" alt="a green round logo labelled with natural food" class="logo" >
+        </div>
+        <div class="company-details">
+          <h1 class="company-name"><span style="color: darkred;"><strong>Latomz Natural</strong></span> <span style="color: rgb(38, 38, 41);">Food Processing & Academy</span></h1>
+          <p class="company-tagline">Committed to Quality and Excellence <img src="image.png" class="arrow" width="20px" height="20px" alt="right arrow pointer"> Varieties of <span style="color: rgb(85, 85, 213);">Cakes</span>, <span style="color: rgb(85, 85, 213);">Sweetened Yoghurts</span>, <span style="color: rgb(85, 85, 213);">Icecream</span> and <span style="color: rgb(85, 85, 213);">more...</span></p>
+  
+          <address class="contact-details">
+            <div class="contact-item">
+              <!-- Inlined SVG icon for location -->
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+              <span>Brikama New Town, Opposite Gambia Teacher's Union, West Coast Region, The Gambia</span>
+            </div>
+            <div class="contact-item">
+              <!-- Inlined SVG icon for phone -->
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path></svg>
+              <span>(+220) 7938886 | (+220) 3591886</span>
+            </div>
+            <div class="contact-item">
+              <!-- Inlined SVG icon for email -->
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+              <span>latdaffeh12@gmail.com</span>
+            </div>
+          </address>
+        </div>
+      </header>
+   
+
+</body>
+</html>
