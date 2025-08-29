@@ -64,13 +64,13 @@
     height: auto; /* Adjust height automatically */
 }
 
-.logo, .logo1 {
+.logo {
     max-width: 100%; /* Responsive logos */
     height: auto; /* Maintain aspect ratio */
-
+    border-radius: 70%;
+    width: 60px;
 }
 
-.logo {border-radius: 50%;}
 
 .company-details {
     text-align: center; /* Center text on mobile */
@@ -81,7 +81,7 @@
     font-size: 1.8rem; /* Adjusted for mobile */
     font-weight: 700;
     color: var(--primary-color);
-    margin: 0 0 4px;
+    margin: auto;
 }
 
 .company-tagline {
@@ -160,13 +160,11 @@
 <body>
 <div class="main-border-container">
     <header class="letterhead-header">
-        <div class="logo-container">
-          <!-- HTML attributes for width/height have been removed. CSS handles everything. -->
-          <img src="image1.png" alt="Latomz Natural Food Processing & Academy Logo" class="logo1">
-          <img src="image2.png" alt="a green round logo labelled with natural food" class="logo" >
-        </div>
+        
         <div class="company-details">
-          <h1 class="company-name"><span style="color: darkred;"><strong>Latomz Natural</strong></span> <span style="color: rgb(38, 38, 41);">Food Processing & Academy</span></h1>
+          <h1 class="company-name"><span style="color: darkred;"><strong>Latomz Natural</strong></span> <img src="image2.png" alt="a green round logo labelled with natural food" class="logo" >
+            <span style="color: rgb(38, 38, 41);">Food Processing & Academy</span></h1>
+            <br/>
           <p class="company-tagline">Committed to Quality and Excellence <img src="image.png" class="arrow" width="20px" height="20px" alt="right arrow pointer"> Varieties of <span style="color: rgb(85, 85, 213);">Cakes</span>, <span style="color: rgb(85, 85, 213);">Sweetened Yoghurts</span>, <span style="color: rgb(85, 85, 213);">Icecream</span> and <span style="color: rgb(85, 85, 213);">more...</span></p>
   
           <address class="contact-details">
